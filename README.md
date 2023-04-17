@@ -1,7 +1,10 @@
 
-# Welcome to my portfolio! My name is Mike Dev, and I'm a junior front-end developer with a passion for creating beautiful and intuitive web applications. I specialize in creating responsive and dynamic user interfaces using modern web technologies such as HTML5, CSS3, and JavaScript.
+# Welcome to my portfolio! 
+
+My name is Mike Dev, and I'm a junior front-end developer with a passion for creating beautiful and intuitive web applications. I specialize in creating responsive and dynamic user interfaces using modern web technologies such as HTML5, CSS3, and JavaScript.
 
 # Skills
+
 Proficient in HTML5 and CSS3
 Experience with JavaScript and jQuery
 Familiar with Bootstrap and other CSS frameworks
