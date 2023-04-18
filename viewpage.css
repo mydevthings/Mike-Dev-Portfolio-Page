@@ -75,8 +75,8 @@ body {
     background-color: rgb(0, 0, 0);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -206,4 +206,24 @@ body {
   100% { transform: rotate(0deg); }
 }
 
+
+ /* Clickable Button for project */
+ 
+ .project .title {
+  color: #fff;
+  background-color: #003b47;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.project .title:hover {
+  background-color: #9f9f9f;
+  color: #000000;
+}
+
+.description p {
+  text-align: center;
+}
 

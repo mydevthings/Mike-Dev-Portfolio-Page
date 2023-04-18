@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * { 
     box-sizing: border-box;
 }
@@ -8,17 +12,18 @@ body {
     background-color: #000000;
     color: #fff;
     font-family: 'Space Grotesk', sans-serif;
-    display: flex;
+    display: static;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin-top: 250px;
+    height: 50vh;
     overflow: hidden;
-    margin: 0px;
     animation: flashing 0.1s linear infinite;
     transform: rotateZ( /* random angle */ );
     text-align: center;
     position: relative;
     overflow: auto;
+    padding: 0;
 }
 
 .text-container {
@@ -27,6 +32,8 @@ body {
     left:50%;
     transform: translateY(-50%);
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Button  */
@@ -362,3 +369,5 @@ button:hover {
     }
   }
   
+
+
